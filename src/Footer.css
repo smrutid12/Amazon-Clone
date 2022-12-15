@@ -1,0 +1,125 @@
+.footer{
+    background-color: #232F3E;
+    width:100% !important;
+    margin-top: 1400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: fit-content;
+    min-width: 100px;
+    
+}
+.footer__backToTop{
+    background-color: #1f4364;
+    width: 100%;
+    text-align: center;
+    
+}
+.footer__backToTop >a {
+    color:white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;
+}
+.footer__links{
+    display: flex;
+    border-bottom: 0.1px solid gray ;
+}
+.Know_us,.Connect,.Help_you,.Make_money{
+    margin: 10px;
+    width: fit-content;
+    text-align:left;
+    padding: 10px;
+    list-style: none;
+    color: white;
+    
+}
+.footer__links >li,a,h4
+{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.space__between{
+    margin-left: 20px;
+    width: 40px;
+    height: auto;
+}
+.footer__logo{
+    width:100px;
+    object-fit: contain;
+    margin:0 20px;
+    margin-top:40px;
+}
+.footer__language{
+    height: 90px;
+    margin-top: 20px; 
+    padding: 10px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer__languageDropdown{
+    color: white;
+    display: flex!important;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 4px;
+    align-items: center;
+    margin-top: 30px; 
+}
+.footer__languageDropdown>h5{
+    margin-left: 5px;
+}
+.dropicon{
+    display: grid;
+    margin-left: 5px;
+    border:0.2px solid transparent;
+}
+.version{
+    text-align: center;
+    justify-content: center;
+}
+.version__options{
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: 200px;
+    display:inline-block;
+}
+.version__options >a:hover{
+    text-decoration: 2px underline white;
+}
+
+.footer__copyright{
+    background-color:#131A22;
+    height: fit-content;
+    color: white;
+}
+.service{
+    display: flex;
+    flex-direction:row;
+    padding:20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.amazon__service{
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+}
+.amazon__service>h6{
+    color: lightgray;
+    font-weight: 400;
+}
+.copyright{
+    display: flex;
+    margin: 20px;
+    margin-top:50px;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+}

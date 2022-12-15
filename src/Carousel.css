@@ -1,0 +1,29 @@
+.home{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: fit-content;
+    height: 500px;
+}
+.home__image{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0, 0, 0, 0));
+    z-index: -1;
+    margin-bottom: -150px;
+}
+.carousel.carousel-slider .control-arrow { 
+    /* font-size: 26px; */
+    height: 200px;
+    width: 70px;
+    border: transparent;
+    min-width: 30px;
+    min-height:100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.carousel.carousel-slider .control-arrow:hover{
+    color:#008296 ;
+    border: 2px solid #008296;
+    border-radius: 5px;
+}
